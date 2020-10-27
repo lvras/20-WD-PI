@@ -1,0 +1,233 @@
+/* Dimension Contenedores */
+.contenedor-header{
+    height: 280px;
+    width: 100%;
+    background-color: rgba(224, 219, 219, 0.685);
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.contenedor-categorias{
+    height: 660px;
+    width: 100%;
+}
+
+.contenedor-recientes{
+    height: 600px;
+    width: 100%;
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
+/* Headear */
+.titulo-header{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 420px;
+    border-bottom: 1px solid gray;
+}
+
+.contenedor-buscador{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 330px;
+}
+
+.buscador{
+    height: 43px;
+    width: 500px;
+    font-size: 14px;
+    background-color: rgba(224, 219, 219, 0.685);
+    border: 2px solid rgb(80, 77, 77);
+}
+
+.boton-buscar{
+    cursor: pointer;
+    position: absolute;
+    height: 47px;
+    width: 150px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: gray;
+    border: 1px solid rgb(80, 77, 77);
+}
+
+.boton-buscar:hover {
+    color: rgb(0, 0, 0);
+    background-color: lightgray;
+}
+
+/* Categorias */
+.titulo-categorias{
+    display: inline-block;
+    position: absolute;
+    left: 590px;
+    margin-top: 80px;
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+
+.parrafo-categorias{
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+    width: 595px;
+    left: 360px;
+    font-size: 16px;
+    margin-top: 140px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.contenedor-img-categorias{
+    display: inline-block;
+    position: absolute;
+    height: 300px;
+    width: 1000px;
+    margin-top: 250px;
+    margin-left: 160px;
+}
+
+.categoria-1{
+    height: 300px;
+    width: 200px;
+    bottom: 1px;
+    right: 1px;
+    position: relative;
+    border: 1px solid rgb(80, 77, 77);
+}
+
+.categoria-2{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    margin-left: 400px;
+    bottom: 303px;
+    border: 1px solid rgb(80, 77, 77);
+}
+
+.categoria-3{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    bottom: 605px;
+    margin-left: 799px;
+    border: 1px solid rgb(80, 77, 77);
+}
+
+.imagen-categoria{
+    margin-top: 5px;
+    height: 260px;
+    width: 180px;
+    margin-left: 10px;
+    /* border: 1px solid gray; */
+}
+
+.titulo-categoria{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+/* Recientes */
+.titulo-recientes{
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 520px;
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+
+.contenedor-img-recientes{
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 1200px;
+    margin-top: 120px;
+    margin-left: 70px;
+    /* border: 1px solid red; */
+}
+
+.contenedor-img-recientes:before {
+    content: "";
+    position: absolute;
+    margin-top: 120px;
+    top: 50px;
+    left: -70px;
+    width: 0;
+    height: 0;
+    border-width: 25px;
+    border-style: solid;
+    border-color: transparent gray transparent transparent;
+}
+
+.contenedor-img-recientes::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1220px;
+    margin-top: 170px;
+    width: 0;
+    height: 0;
+    border-width: 25px;
+    border-style: solid;
+    border-color:  transparent transparent transparent gray;
+}
+
+.reciente-1{
+    height: 300px;
+    width: 570px;
+    position: absolute;
+    margin-top: 50px;
+    /* border: 1px solid rgb(80, 77, 77); */
+}
+
+.reciente-2{
+    height: 300px;
+    width: 570px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 50px;
+    /* border: 1px solid rgb(80, 77, 77); */
+}
+
+.imagen-reciente{
+    height: 300px;
+    width: 570px;
+}
+
+.titulo-reciente{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+/* Footer */
+.about{
+    display: inline-block;
+    position: relative;
+}
+
+.shop{
+    display: inline-block;
+    position: relative;
+}
+
+.about::after, .about::before, .shop::after{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: rgb(85, 85, 85);
+}
+
+.about::before{
+    left: -30px;
+}
+
+.about::after, .shop::after{
+    right: -30px;
+}

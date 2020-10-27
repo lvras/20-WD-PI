@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cambalache.net</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="standard.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/c.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <section class="contenedor-header">
-            <div class="logo-header">
-                <img src="images/c.png" alt="Logo" title="Logo" class="logo-superior">
-            </div>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Cambalaches</a>
-                <a href="#">Ingresar</a>
-                <div class="carrito">
-                    <img src="images/carrito.png" alt="Carrito" class="imagen-carrito">
-                    <a href="#">Mi Carrito</a>
+            <div class="nav-logo">
+                <div class="logo-header">
+                    <img src="images/c.png" alt="Logo" title="Logo" class="logo-superior">
                 </div>
-            </nav>
+                <nav class="nav-superior">
+                    <a href="#">Inicio</a>
+                    <a href="#" class="cambalache">Cambalaches</a>
+                    <a href="#">Ingresar</a>
+                    <div class="carrito">
+                        <img src="images/carritov2.png" alt="Carrito" class="imagen-carrito">
+                        <a href="#">Mi Carrito</a>
+                    </div>
+                </nav>
+            </div>
             <h1 class="titulo-header">Inicia tu cambalache</h1>
             <div class="contenedor-buscador">
-                <input type="text" class="buscador">
+                <input type="text" class="buscador" value="Escriba el producto que esta buscando">
                 <input type="button" value="Buscar" class="boton-buscar">
             </div>
         </section>
@@ -35,8 +39,8 @@
         <section class="contenedor-main">
             <section class="contenedor-categorias">
                 <h2 class="titulo-categorias">Categorias</h2>
-                <p class="parrafo-categorias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-                    temporibus.</p>
+                <p class="parrafo-categorias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum,
+                    nostrum earum voluptatum quibusdam corrupti facilis harum perferendis perspiciatis cupiditate!</p>
                 <div class="contenedor-img-categorias">
                     <div class="categoria-1">
                         <img src="" alt="" class="imagen-categoria">
@@ -54,28 +58,30 @@
             </section>
             <section class="contenedor-recientes">
                 <h2 class="titulo-recientes">Cambalaches Recientes</h2>
-                <div class="reciente-1">
-                    <img src="" alt="" class="imagen-reciente">
-                    <h3 class="titulo-reciente">Lorem, ipsum dolor.</h3>
-                </div>
-                <div class="reciente-2">
-                    <img src="" alt="" class="imagen-reciente">
-                    <h3 class="titulo-reciente">Lorem, ipsum.</h3>
+                <div class="contenedor-img-recientes">
+                    <div class="reciente-1">
+                        <img src="" alt="" class="imagen-reciente">
+                        <h3 class="titulo-reciente">Lorem, ipsum dolor.</h3>
+                    </div>
+                    <div class="reciente-2">
+                        <img src="" alt="" class="imagen-reciente">
+                        <h3 class="titulo-reciente">Lorem, ipsum.</h3>
+                    </div>
                 </div>
             </section>
         </section>
     </main>
     <footer>
         <section class="contenedor-footer">
-            <nav>
+            <nav class="nav-inferior">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Shop</a>
+                <a href="#" class="about">About</a>
+                <a href="#" class="shop">Shop</a>
                 <a href="#">Help</a>
             </nav>
             <div class="marca">
-                <img src="" alt="" class="logo-footer">
-                <h2 class="marca">Cambalache.net</h2>
+                <img src="images/c.png" alt="" class="logo-footer">
+                <h2 class="titulo-marca">Cambalache.net</h2>
             </div>
         </section>
     </footer>
