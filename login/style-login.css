@@ -1,0 +1,152 @@
+/* Contenedores */
+.header-inferior {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.26);
+    /* border: 1px solid red; */
+}
+
+.contenedor-main {
+    width: 100%;
+    height: 385px;
+    /* border: 1px solid red; */
+}
+
+/* Header */
+.titulo-header {
+    display: inline-block;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 15px;
+    font-size: 28px;
+    /* border: 1px solid red; */
+}
+
+.raya {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 545px;
+    border: 1px solid gray;
+}
+
+.login{
+    display: inline-block;
+    position: absolute;
+    height: 120px;
+    margin-left: 545px;
+    margin-top: 50px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.correo{
+    height: 40px;
+    width: 296px;
+    font-size: 14px;
+}
+
+.contra{
+    margin-top: 32px;
+    height: 40px;
+    width: 296px;
+    font-size: 14px;
+}
+
+.raya-2{
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 400px;
+    border: 1px solid lightgray;
+}
+
+.registro{
+    display: inline-block;
+    position: absolute;
+    width: 315px;
+    font-size: 14px;
+    margin-left: 545px;
+    margin-top: 210px;
+    /* border: 1px solid red; */
+}
+
+.texto{
+    display: inline-block;
+    position: relative;
+}
+
+.registrar{
+    display: inline-block;
+    position: relative;
+    text-decoration: underline;
+}
+
+.botones{
+    display: inline-block;
+    /* position: relative; */
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 300px;
+    /* border: 1px solid red; */
+}
+
+.boton-ingresar{
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    width: 182px;
+    left: 490px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+}
+
+.boton-ingresar:hover {
+    color: rgb(0, 0, 0);
+    background-color: lightgray;
+}
+
+.boton-cancelar{
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 182px;
+    line-height: 40px;
+    left: 708px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    color: black;
+}
+
+.boton-cancelar:hover {
+    color:white;
+    background-color: gray;
+}
+
+.nav-inferior{
+    margin-left: 40px;
+}
+
+.camba::after, .camba::before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: rgb(85, 85, 85);
+}
+
+.camba::before{
+    left: 60px;
+}
+
+.camba::after {
+    right: 130px;
+}
