@@ -1,36 +1,15 @@
-/* Contenedores */
-.header-inferior {
-    width: 100%;
-    height: 100px;
-    background-color: rgba(128, 128, 128, 0.26);
-    /* border: 1px solid red; */
+:root{
+    --color-contenedores: #a0a0a0;
 }
 
+/* Contenedor */
 .contenedor-main {
     width: 100%;
     height: 385px;
     /* border: 1px solid red; */
 }
 
-/* Header */
-.titulo-header {
-    display: inline-block;
-    position: absolute;
-    margin-left: 580px;
-    margin-top: 15px;
-    font-size: 28px;
-    /* border: 1px solid red; */
-}
-
-.raya {
-    display: inline-block;
-    position: absolute;
-    width: 300px;
-    margin-top: 70px;
-    margin-left: 545px;
-    border: 1px solid gray;
-}
-
+/* Main */
 .login{
     display: inline-block;
     position: absolute;
@@ -45,6 +24,7 @@
     height: 40px;
     width: 296px;
     font-size: 14px;
+    border: 2px solid var(--color-contenedores);
 }
 
 .contra{
@@ -52,6 +32,7 @@
     height: 40px;
     width: 296px;
     font-size: 14px;
+    border: 2px solid var(--color-contenedores);
 }
 
 .raya-2{
@@ -60,7 +41,7 @@
     width: 600px;
     margin-top: 200px;
     margin-left: 400px;
-    border: 1px solid lightgray;
+    border: 1px solid var(--color-contenedores);
 }
 
 .registro{
@@ -86,7 +67,6 @@
 
 .botones{
     display: inline-block;
-    /* position: relative; */
     height: 40px;
     width: 400px;
     text-align: center;
@@ -129,24 +109,4 @@
 .boton-cancelar:hover {
     color:white;
     background-color: gray;
-}
-
-.nav-inferior{
-    margin-left: 40px;
-}
-
-.camba::after, .camba::before{
-    content: ' ';
-    position: absolute;
-    width: 1px;
-    height: 20px;
-    background-color: rgb(85, 85, 85);
-}
-
-.camba::before{
-    left: 60px;
-}
-
-.camba::after {
-    right: 130px;
 }

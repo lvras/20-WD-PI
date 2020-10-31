@@ -1,4 +1,4 @@
-/* Dimension Contenedores */
+/* Contenedores */
 .contenedor-header{
     height: 400px;
     width: 100%;
@@ -22,14 +22,14 @@
     position: absolute;
     margin-top: 50px;
     font-size: 40px;
-    margin-left: 430px;
+    margin-left: 500px;
 }
 
 .raya{
     position: absolute;
     width: 230px;
     margin-top: 140px;
-    margin-left: 500px;
+    margin-left: 570px;
     display: inline-block;
     border: 1px solid gray;
 }
@@ -37,7 +37,7 @@
 .contenedor-buscador{
     position: absolute;
     margin-top: 200px;
-    margin-left: 330px;
+    margin-left: 400px;
 }
 
 .buscador{
@@ -68,6 +68,7 @@
     background-color: lightgray;
 }
 
+/* Main */
 /* Categorias */
 .titulo-categorias{
     display: inline-block;
@@ -215,6 +216,15 @@
 }
 
 /* Footer */
+.nav-inferior{
+    display: inline-block;
+    position: absolute;
+    left: 515px;
+    margin-top: 20px;
+    margin-left: 0px;
+    /* border: 1px solid red; */
+}
+
 .about{
     display: inline-block;
     position: relative;

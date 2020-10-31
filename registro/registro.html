@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="../standard.css">
-    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="style-registro.css">
     <link rel="shortcut icon" href="../images/c.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -21,7 +21,7 @@
                 <nav class="nav-superior">
                     <a href="../index.html">Inicio</a>
                     <a href="#" class="cambalache">Cambalaches</a>
-                    <a href="#">Ingresar</a>
+                    <a href="../login/login.html">Ingresar</a>
                     <div class="carrito">
                         <img src="../images/carritov2.png" alt="Carrito" class="imagen-carrito">
                         <a href="#">Mi Carrito</a>
@@ -29,24 +29,34 @@
                 </nav>
             </div>
             <div class="header-inferior">
-                <h1 class="titulo-header">Ingreso de usuario</h1>
+                <h1 class="titulo-header">Registro de usuario</h1>
                 <div class="raya"></div>
             </div>
         </section>
     </header>
     <main>
         <section class="contenedor-main">
-            <div class="login">
-                <input type="text" class="correo" value="Correo Electronico">
-                <input type="text" class="contra" value="Contraseña">
+            <div class="contenedor-informacion">
+                <input type="text" class="first-name" value="First Name">
+                <input type="text" class="last-name" value="Last Name">
+                <input type="text" class="address" value="Address">
+                <input type="text" class="address-2" value="Address 2">
+                <div class="selector">
+                    <select name="select" class="country">
+                        <option value="country">Country</option>
+                    </select>
+                </div>
+                <input type="text" class="city" value="City">
+                <input type="text" class="email" value="Email">
+                <input type="text" class="pass" value="Password">
             </div>
             <div class="raya-2"></div>
-            <div class="registro">
-                <p class="texto">Si no tiene una cuenta de usuario</p>
-                <a href="../registro/registro.html" class="registrar">registrese aqui.</a>
+            <div class="ingresar">
+                <p class="texto">Si ya tiene una cuenta de usuario</p>
+                <a href="../login/login.html" class="registrar">ingrese aqui.</a>
             </div>
             <div class="botones">
-                <a href="#" class="boton-ingresar">Ingresar</a>
+                <a href="#" class="boton-registrar">Registrarse</a>
                 <a href="#" class="boton-cancelar">Cancelar</a>
             </div>
         </section>
@@ -56,7 +66,7 @@
             <nav class="nav-inferior">
                 <a href="../index.html">Inicio</a>
                 <a href="#" class="camba">Cambalaches</a>
-                <a href="#">Ingresar</a>
+                <a href="../login/login.html">Ingresar</a>
             </nav>
             <div class="marca">
                 <img src="../images/c.png" alt="" class="logo-footer">
