@@ -1,5 +1,6 @@
 :root{
     --color-principal: #606060;
+    --color-contenedores: #a0a0a0;
     --fuente:'Open Sans', sans-serif;
 }
 
@@ -49,7 +50,7 @@ body{
     position: absolute;
     width: 1px;
     height: 20px;
-    background-color: rgb(85, 85, 85);
+    background-color: var(--color-contenedores);
 }
 
 .cambalache::before{
@@ -132,7 +133,7 @@ a{
 .contenedor-footer{
     height: 100px;
     width: 100%;
-    border-top: 1px solid rgb(85, 85, 85);
+    border-top: 2px solid var(--color-contenedores);
 }
 
 .nav-inferior{
@@ -167,7 +168,7 @@ a{
     position: absolute;
     width: 1px;
     height: 20px;
-    background-color: rgb(85, 85, 85);
+    background-color: var(--color-contenedores);
 }
 
 .camba::before{

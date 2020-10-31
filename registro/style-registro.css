@@ -9,7 +9,7 @@
 }
 
 .nav-logo{
-    border-bottom: 1px solid var(--color-contenedores);
+    border-bottom: 2px solid var(--color-contenedores);
 }
 
 .contenedor-informacion {
