@@ -219,6 +219,15 @@
     font-size: 20px;
 }
 
+.titulo-reciente-esp{
+    position: relative;
+    text-align: center;
+    top: 38px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: rgb(80, 77, 77);
+}
+
 /* Footer */
 .nav-inferior{
     display: inline-block;

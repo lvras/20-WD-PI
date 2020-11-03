@@ -1,0 +1,125 @@
+:root {
+    --color-contenedores: #a0a0a0;
+}
+
+/* Contenedor */
+.contenedor-main {
+    height: 620px;
+    width: 100%;
+}
+
+/* Header */
+.header-inferior {
+    border-top: 2px solid var(--color-contenedores);
+}
+
+.titulo-header {
+    margin-left: 590px;
+}
+
+/* Main */
+.texto {
+    font-size: 18px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.contenedor-informacion-producto {
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.nombre {
+    position: absolute;
+    height: 40px;
+    width: 250px;
+    font-size: 14px;
+    border: 2px solid var(--color-contenedores);
+}
+
+.descripcion {
+    position: absolute;
+    margin-top: 70px;
+    height: 100px;
+    width: 700px;
+    font-size: 14px;
+    border: 2px solid var(--color-contenedores);
+}
+
+.link-img {
+    position: absolute;
+    margin-top: 200px;
+    height: 40px;
+    width: 700px;
+    font-size: 14px;
+    border: 2px solid var(--color-contenedores);
+}
+
+.busqueda {
+    position: absolute;
+    margin-top: 270px;
+    height: 100px;
+    width: 700px;
+    font-size: 14px;
+    border: 2px solid var(--color-contenedores);
+}
+
+.raya-2 {
+    display: inline-block;
+    position: absolute;
+    width: 750px;
+    margin-left: 330px;
+    border: 1px solid var(--color-contenedores);
+}
+
+/* Botones */
+.botones {
+    position: absolute;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton-guardar {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    width: 182px;
+    left: 490px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+}
+
+.boton-guardar:hover {
+    color: rgb(0, 0, 0);
+    background-color: lightgray;
+}
+
+.boton-cancelar {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 182px;
+    line-height: 40px;
+    left: 708px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    color: black;
+}
+
+.boton-cancelar:hover {
+    color: white;
+    background-color: gray;
+}
+
+/* Footer */
+.camba::after {
+    right: 145px;
+}
