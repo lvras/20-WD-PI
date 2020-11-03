@@ -1,0 +1,144 @@
+:root{
+    --color-contenedores: #a0a0a0;
+}
+
+/* Contenedor */
+.nav-logo{
+    border-bottom: 2px solid var(--color-contenedores);
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.contenedor-cambalaches{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 2px solid var(--color-contenedores);
+}
+
+/* Main */
+/* Superior */
+.main-superior{
+    position: relative;
+    height: 100px;
+    width: 520px;
+    text-align: center;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+
+.titulo{
+    font-size: 32px;
+}
+
+.texto{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 500px;
+}
+
+/* Productos */
+.producto-1{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+
+.producto-2{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 525px;
+    /* border: 1px solid red; */
+}
+
+.producto-3{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+}
+
+.producto-4{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 182px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+
+.producto-5{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 182px;
+    margin-left: 525px;
+    /* border: 1px solid red; */
+}
+
+.producto-6{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 182px;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+}
+
+.producto-7{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 342px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+
+.producto-8{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 342px;
+    margin-left: 525px;
+    /* border: 1px solid red; */
+}
+
+.producto-9{
+    position: absolute;
+    height: 122px;
+    width: 300px;
+    margin-top: 342px;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+}
+
+.imagen-producto{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid var(--color-contenedores);
+}
+
+.titulo-producto{
+    display: inline-block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.usuario{
+    display: inline-block;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
