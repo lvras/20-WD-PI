@@ -43,7 +43,6 @@
     width: 300px;
     margin-top: 20px;
     margin-left: 100px;
-    /* border: 1px solid red; */
 }
 
 .producto-2{
@@ -52,7 +51,6 @@
     width: 300px;
     margin-top: 20px;
     margin-left: 525px;
-    /* border: 1px solid red; */
 }
 
 .producto-3{
@@ -61,7 +59,6 @@
     width: 300px;
     margin-top: 20px;
     margin-left: 950px;
-    /* border: 1px solid red; */
 }
 
 .producto-4{
@@ -70,7 +67,6 @@
     width: 300px;
     margin-top: 182px;
     margin-left: 100px;
-    /* border: 1px solid red; */
 }
 
 .producto-5{
@@ -79,7 +75,6 @@
     width: 300px;
     margin-top: 182px;
     margin-left: 525px;
-    /* border: 1px solid red; */
 }
 
 .producto-6{
@@ -88,7 +83,6 @@
     width: 300px;
     margin-top: 182px;
     margin-left: 950px;
-    /* border: 1px solid red; */
 }
 
 .producto-7{
@@ -97,7 +91,6 @@
     width: 300px;
     margin-top: 342px;
     margin-left: 100px;
-    /* border: 1px solid red; */
 }
 
 .producto-8{
@@ -106,7 +99,6 @@
     width: 300px;
     margin-top: 342px;
     margin-left: 525px;
-    /* border: 1px solid red; */
 }
 
 .producto-9{
@@ -115,7 +107,6 @@
     width: 300px;
     margin-top: 342px;
     margin-left: 950px;
-    /* border: 1px solid red; */
 }
 
 .imagen-producto{
@@ -123,7 +114,7 @@
     width: 120px;
     display: inline-block;
     position: absolute;
-    border: 1px solid var(--color-contenedores);
+    border: 2px solid var(--color-contenedores);
 }
 
 .titulo-producto{
@@ -141,4 +132,3 @@
     margin-top: 40px;
     font-size: 16px;
 }
-

@@ -9,7 +9,7 @@
 }
 
 .contenedor-main{
-    height: 485px;
+    height: 750px;
     width: 100%;
 }
 
@@ -95,6 +95,14 @@ span{
     height: 240px;
     width: 300px;
     margin-left: 970px;
+}
+
+.producto-4{
+    position: absolute;
+    height: 240px;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 80px;
 }
 
 .imagen-producto{

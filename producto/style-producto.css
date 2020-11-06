@@ -2,11 +2,14 @@
     --color-contenedores: #a0a0a0;
 }
 
+.nav-logo{
+    border-bottom: 2px solid var(--color-contenedores);
+}
+
 /* Contenedores */
 .contenedor-main{
     height: 485px;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .columna-izquierda{
@@ -14,7 +17,6 @@
     left: 0;
     height: 480px;
     width: 680px;
-    /* border: 1px solid red; */
 }
 
 .columna-derecha{
@@ -22,16 +24,15 @@
     right: 0;
     height: 484px;
     width: 682px;
-    /* border: 1px solid red; */
 }
 
 /* Columna-izquierda */
 .imagen-producto{
-    height: 484px;
+    height: 485px;
     width: 682px;
     display: inline-block;
     position: relative;
-    border: 1px solid var(--color-contenedores);
+    border-right: 2px solid var(--color-contenedores);
 }
 
 /* Columna-derecha */
@@ -39,8 +40,6 @@
     position: absolute;
     height: 150px;
     width: 680px;
-    border-top: 2px solid var(--color-contenedores);
-    /* border: 1px solid red; */
 }
 
 .titulo-producto{
@@ -86,7 +85,6 @@
     height: 200px;
     width: 680px;
     margin-top: 150px;
-    /* border: 1px solid red; */
 }
 
 .descripcion{
@@ -95,7 +93,6 @@
     height: 90px;
     width: 450px;
     margin-top: 10px;
-    /* border: 1px solid red; */
 }
 
 .titulo-descripcion{
@@ -117,7 +114,6 @@
     margin-top: 100px;
     height: 90px;
     width: 450px;
-    /* border: 1px solid red; */
 }
 
 .titulo-busqueda{
@@ -144,12 +140,10 @@
 
 .boton{
     display: inline-block;
-    /* position: absolute; */
     text-align: center;
     height: 134px;
     width: 680px;
     margin-top: 330px;
-    /* border: 1px solid red; */
 }
 
 .boton-agregar{
@@ -170,6 +164,3 @@
     color: rgb(0, 0, 0);
     background-color: lightgray;
 }
-
-
-

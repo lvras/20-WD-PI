@@ -80,7 +80,6 @@
     left: 590px;
     margin-top: 80px;
     font-size: 30px;
-    /* border: 1px solid red; */
 }
 
 .parrafo-categorias{
@@ -92,41 +91,36 @@
     font-size: 16px;
     margin-top: 140px;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .contenedor-img-categorias{
     display: inline-block;
     position: absolute;
-    height: 300px;
+    height: 310px;
     width: 1000px;
     margin-top: 250px;
     margin-left: 160px;
 }
 
 .categoria-1{
-    height: 300px;
+    height: 310px;
     width: 200px;
-    bottom: 1px;
-    right: 1px;
-    position: relative;
+    position: absolute;
     border: 1px solid rgb(80, 77, 77);
 }
 
 .categoria-2{
-    height: 300px;
+    height: 310px;
     width: 200px;
-    position: relative;
+    position: absolute;
     margin-left: 400px;
-    bottom: 303px;
     border: 1px solid rgb(80, 77, 77);
 }
 
 .categoria-3{
-    height: 300px;
+    height: 310px;
     width: 200px;
-    position: relative;
-    bottom: 605px;
+    position: absolute;
     margin-left: 799px;
     border: 1px solid rgb(80, 77, 77);
 }
@@ -136,7 +130,7 @@
     height: 260px;
     width: 180px;
     margin-left: 10px;
-    /* border: 1px solid gray; */
+    border: 2px solid var(--color-contenedores);
 }
 
 .titulo-categoria{
@@ -152,7 +146,6 @@
     margin-top: 40px;
     margin-left: 520px;
     font-size: 30px;
-    /* border: 1px solid red; */
 }
 
 .contenedor-img-recientes{
@@ -162,7 +155,6 @@
     width: 1200px;
     margin-top: 120px;
     margin-left: 70px;
-    /* border: 1px solid red; */
 }
 
 .contenedor-img-recientes:before {
@@ -196,7 +188,6 @@
     width: 570px;
     position: absolute;
     margin-top: 50px;
-    /* border: 1px solid rgb(80, 77, 77); */
 }
 
 .reciente-2{
@@ -205,12 +196,12 @@
     position: absolute;
     margin-left: 630px;
     margin-top: 50px;
-    /* border: 1px solid rgb(80, 77, 77); */
 }
 
 .imagen-reciente{
     height: 300px;
     width: 570px;
+    border: 2px solid var(--color-contenedores);
 }
 
 .titulo-reciente{
@@ -235,7 +226,6 @@
     left: 515px;
     margin-top: 20px;
     margin-left: 0px;
-    /* border: 1px solid red; */
 }
 
 .about{
